@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/whites"
+    android:layout_height="match_parent">
+    <com.example.bjlz.loginbyzhiwen.views.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/chek_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <com.example.bjlz.loginbyzhiwen.views.ClearEditText
+        android:id="@+id/cdt_input_pwd"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:hint="@string/please_input_pwd"
+        android:background="@color/devide_line"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:text="@string/ok"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="240dp"
+        android:layout_height="55dp" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LoginByZhiWen.iml" filepath="$PROJECT_DIR$/LoginByZhiWen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zhiwen/zhiwen.iml" filepath="$PROJECT_DIR$/zhiwen/zhiwen.iml" />
+    </modules>
+  </component>
+</project>
